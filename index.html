@@ -22,6 +22,7 @@
 
         <div class="btn btn-primary" onclick="cadastrar()">Cadastrar</div>
         <div class="btn btn-warning" onclick="tabela()">Gerar tabela</div>
+        <span>Pessoad cadastradas: <span id="cadastrados"></span></span>
         
     </div>
 
@@ -47,6 +48,8 @@
         var _tabela = document.getElementById('tbody')
         var inputNome = document.getElementById('nomeInput')
         var inputIdade = document.getElementById('idadeInput')
+        var mostrar = document.getElementById('cadastrados')
+        mostrar.innerHTML = "0"
         function cadastrar()
         {
             var pessoa = {
@@ -62,7 +65,7 @@
             console.log("Limpando campos")
             inputNome.value = ""
             inputIdade.value = ""
-
+            mostrar.innerHTML = lista.length
             document.getElementById('nomeInput').focus();
         }
 
@@ -80,6 +83,7 @@
               </tr>
               `
             }
+            mostrar.innerHTML = "0"
         }
 
         document.addEventListener('keydown', function(event){
