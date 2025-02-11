@@ -1,14 +1,16 @@
+
 # BankOfPeople
-Um projeto que trabalha com objetos em javascript, nele você ira cadastrar uma serie de pessoas com nome e idade podendo gerar uma tabela com estes dados após alguns cadastros
+
+**BankOfPeople** é um projeto em JavaScript onde você pode cadastrar pessoas com nome e idade, gerando uma tabela com essas informações após alguns cadastros.
 
 ## Funcionalidades
-- Cadastrado de objetos
-- Geração de tabela (não exportavel)
+- Cadastro de objetos (nome e idade).
+- Geração de tabela (não exportável) com as pessoas cadastradas.
 
-## Tecnologias 
+## Tecnologias Utilizadas
 - HTML
-- CSS 
-- JAVASCRIPT 
+- CSS
+- JavaScript
 
 ## Screenshots
 
@@ -16,18 +18,17 @@ Um projeto que trabalha com objetos em javascript, nele você ira cadastrar uma 
 |:--------------:|:--------------:|:--------------:|
 | ![Imagem1](screenshots/captura.png) | ![Imagem2](screenshots/captura2.png) | ![Imagem3](screenshots/captura3.png) |
 
-
 ## Como rodar o projeto
 
-### Clone o repositorio
+### Clone o repositório
 ```bash
     git clone https://github.com/LacamJC/BankOfPeople.git
     cd BankOfPeople    
 ```
 
-### Após isso abra o arquivo index.html em seu navegador e teste as funcionadlidades !
-
+### Após isso, abra o arquivo `index.html` em seu navegador e teste as funcionalidades!
 
 ## Atribuições
 
-Ideia tirada do repositorio https://github.com/florinpop17/app-ideas
+Ideia tirada do repositório [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas).
+```
